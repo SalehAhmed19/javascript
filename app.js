@@ -1,5 +1,6 @@
 // task 1
 let str = "Hello, World!";
-let rStr = str.split(" ").reverse().join(" ").split("").reverse().join("");
+let rStrWord = str.split(" ").reverse().join(" ");
+let rStrLetters = rStrWord.split("").reverse().join("");
 
-console.log(rStr);
+console.log(rStrLetters);
