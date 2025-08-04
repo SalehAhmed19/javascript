@@ -1,2 +1,5 @@
-console.log("Hello, World!");
-// This is a simple Node.js application that prints "Hello, World!" to the console.
+// task 1
+let str = "Hello, World!";
+let rStr = str.split(" ").reverse().join(" ").split("").reverse().join("");
+
+console.log(rStr);
